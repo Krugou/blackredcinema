@@ -16,6 +16,7 @@ router.post('/register', function(req, res, next) {
         password: req.body.password,
         seating: req.body.seating,
         movie: req.body.movie,
+       
     }
 // tarkistaa ettei sähköposti ole käytössä
 var sql="SELECT * FROM bookings WHERE email =?";

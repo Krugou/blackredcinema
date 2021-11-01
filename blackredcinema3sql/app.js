@@ -3,9 +3,9 @@ var mysql = require('mysql');
 const router = express.Router();
 const app = express();
 const expressEjsLayout = require('express-ejs-layouts')
-const flash = require('connect-flash');
 const session = require('express-session');
-const PORT = 3000;
+const PORT = 3000
+;
 
 
 //EJS
@@ -17,7 +17,7 @@ app.use(session({
     secret : 'secret',
     resave: false,
     saveUninitialized: true,
-    cookie: { maxAge: 60000 }
+    cookie: { maxAge: 50000 }
 }));
    
 //Reitit
