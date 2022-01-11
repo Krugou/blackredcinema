@@ -1,0 +1,226 @@
+{
+  "id": "9291ebcd-515d-4ebc-98b8-b9d79b003c14",
+  "version": "2.0",
+  "name": "Blackredcinema",
+  "url": "http://localhost:3000/login",
+  "tests": [{
+    "id": "679c8dbe-e61c-42fb-adf5-1c62e85dca5c",
+    "name": "",
+    "commands": []
+  }, {
+    "id": "cf7d8f6f-4567-43e5-a9c1-edc6d9653b09",
+    "name": "test run system",
+    "commands": [{
+      "id": "efa3b540-eb83-44ab-8fe3-ea84f6b6668a",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:3000/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c3afb00-141d-4741-87bd-0c6b73d51fb0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1113x1174",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "060cc86f-ed2a-461a-8d28-fad43333454e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=continue to register your reservation.",
+      "targets": [
+        ["linkText=continue to register your reservation.", "linkText"],
+        ["css=a:nth-child(8)", "css:finder"],
+        ["xpath=//a[contains(text(),'continue to register your reservation.')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'register')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'continue to register your reservation.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce4128d0-82ac-4817-a649-6b68ea5c1d33",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.row:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f52be05-37e8-429e-adfb-dac4c96f9b54",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.row:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "a2"
+    }, {
+      "id": "0d7420b5-f2b6-4670-9f72-b10a5b4812b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(1) > .col-25",
+      "targets": [
+        ["css=.row:nth-child(1) > .col-25", "css:finder"],
+        ["xpath=//form/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b75efa14-76ff-4856-87b3-ba78c03392f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b7fea1b-8a1d-495f-b279-00e0f07e0b2f",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.row:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "a2@gmail.com"
+    }, {
+      "id": "b0228ee9-89b4-4c4c-8c2f-a3891123942f",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.row:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "a2"
+    }, {
+      "id": "15017b10-0edb-4b4b-a485-75bcbeaf3b74",
+      "comment": "",
+      "command": "type",
+      "target": "name=password2",
+      "targets": [
+        ["name=password2", "name"],
+        ["css=.row:nth-child(4) input", "css:finder"],
+        ["xpath=//input[@name='password2']", "xpath:attributes"],
+        ["xpath=//div[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": "a2"
+    }, {
+      "id": "f6ef42bd-cece-408e-9b8a-77c54b599e18",
+      "comment": "",
+      "command": "type",
+      "target": "name=seating",
+      "targets": [
+        ["name=seating", "name"],
+        ["css=.row:nth-child(5) > .col-75 > input", "css:finder"],
+        ["xpath=//input[@name='seating']", "xpath:attributes"],
+        ["xpath=//div[5]/div[2]/input", "xpath:position"]
+      ],
+      "value": "a2"
+    }, {
+      "id": "9e51d5e6-626d-4e3e-a871-31b36a51cda7",
+      "comment": "",
+      "command": "click",
+      "target": "id=movie",
+      "targets": [
+        ["id=movie", "id"],
+        ["name=movie", "name"],
+        ["css=#movie", "css:finder"],
+        ["xpath=//select[@id='movie']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cb6d450-61b6-4fa7-8ce1-7a02fb281780",
+      "comment": "",
+      "command": "select",
+      "target": "id=movie",
+      "targets": [],
+      "value": "label=Shawshank Redemption"
+    }, {
+      "id": "ce34b1bd-d4b6-4345-9e91-dec2dd4e0f65",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(3)",
+      "targets": [
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@value='Register and reserve these seats']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "555cf8d8-39c0-4e3f-a5b6-975318085742",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=div:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "a2@gmail.com"
+    }, {
+      "id": "0c8f80d1-666a-4929-8928-d80e4078ad51",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=div:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "a2"
+    }, {
+      "id": "41a99542-f27f-43d0-9f1d-dffc2298d741",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d3088c3-395a-4f13-90e1-4ae88148ca04",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=a:nth-child(11)", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/logout')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "beb70d9c-82dd-4c16-87a3-e243cf2c26f9",
+    "name": "",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["679c8dbe-e61c-42fb-adf5-1c62e85dca5c"]
+  }],
+  "urls": ["http://localhost:3000/login"],
+  "plugins": []
+}
